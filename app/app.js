@@ -15,12 +15,12 @@ app.get('/health', (req, res) =>{
 
 app.get('/metrics', (req, res) =>{
     const uptime = Math.floor((new Date()- metrics.startTime) / 1000);
-    res.json({
+    res.json({ 
         total_requests: metrics.totalRequests,
         uptime_seconds: uptime
     });
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-    console.log('Server running on port ${PORT}');
+    console.log(`Server running on port ${PORT}`);
 })
