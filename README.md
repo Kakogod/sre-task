@@ -1,9 +1,9 @@
-# Technical project - Node.js App + ECS Fargate Module
+## Technical project - Node.js App + ECS Fargate Module
 
 Simple Node.js application with health/metrics endpoints, dockerized and ready for deployment on AWS ECS Fargate.
 
 
-### Node.js app , dockerized. CI/CD with Github actions TASK I 
+#### Node.js app , dockerized. CI/CD with Github actions
 
 ***Short description*** 
 - I picked NodeJS because it's lightweigt, has a simple setup and the Alpine Docker image is very small.For simple health/metrics API it's easy to develop.
@@ -113,7 +113,7 @@ git push -u origin master
 #### Run
 `docker run -d -p 80:3000 ghcr.io/YOUR_USERNAME/sre-task:latest`
 
-# Terraform TASK II
+# Terraform
 
 ## 4. Terraform - ECS Module
 
