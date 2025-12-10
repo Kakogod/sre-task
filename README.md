@@ -3,9 +3,9 @@
 Simple Node.js application with health/metrics endpoints, dockerized and ready for deployment on AWS ECS Fargate.
 
 
-# Node.js app , dockerized. CI/CD with Github actions TASK I 
+### Node.js app , dockerized. CI/CD with Github actions TASK I 
 
-## Short description 
+***Short description*** 
 - I picked NodeJS because it's lightweigt, has a simple setup and the Alpine Docker image is very small.For simple health/metrics API it's easy to develop.
 - The app is written in a way that will count everytime a endpoint is run (health and metrics).
 - When health metric is run, it will give the satus of the application (to check if it's working) and     date & time when the /health metric was run
